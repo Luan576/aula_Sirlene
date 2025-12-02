@@ -7,7 +7,7 @@
     <meta name="description" content="Portfólio profissonal de Luan Alves, desenvolvedor Front-End">
     <meta name="keywords"
         content="Portfólio, front-end, html5, css3, javascript, bootstrap, windows server, linux server, hardware, desenvolvimento web..">
-    <link rel="shortcut icon" href="/img/fivecon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
 
     <title>Portfólio</title>
     <!--Link css Botstrap-->
@@ -28,15 +28,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sobre">Projetos</a>
+                            <a class="nav-link" href="#projeto">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projetos">Contatos</a>
+                            <a class="nav-link" href="#contatos">Contatos</a>
                         </li>
                     </ul>
                 </div>
@@ -44,58 +44,173 @@
         </nav>
     </header>
 
-    <main id="sobre" class="container">
+    <main id="sobre" class="container my-3">
         <div class="row">
-            <div>
-                <h1>Ola! Eu sou Luan Alves Pavan</h1>
+            <div class="col-lg-6 col-md-7 gy-2 pt-3">
+                <h1>Hello World! Eu sou Luan Alves</h1>
                 <h2>Front-End Devolper</h2>
-                <p>Atualmente, tenho 18 anos. Sou estudante do curso Técnico em Informatica com foco em Infraestrutura
+                <p class="pt-3">Atualmente, tenho 18 anos. Sou estudante do curso Técnico em Informatica com foco em
+                    Infraestrutura
                     de redes e desenvolvimento Front-end</p>
-                <div>
-                    <a href="" target="_blank" aria-label="Contratar Lucas Oliveira"
-                        class="btn btn-success">Contrate-me</a>
+                <div class="align-items-center">
+                    <a href="" target="_blank" aria-label="Contratar Luan Alves"
+                        class="btn btn-outline-info">Contrate-me</a>
                     <a href="https://github.com/Luan576?tab=repositories" target="_blank"
-                        aria-label="Projetos de Lucas Oliveira" class="btn btn-outline-danger">Projetos</a>
+                        aria-label="Projetos de Luan Alves" class="btn btn-outline-info">Projetos</a>
                 </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/luan-alves-31024233a/"><img src="img/linkedln.png" alt=""></a>
-                    <a href="https://www.instagram.com/"><img src="img/instaicon.png" alt="instagram"></a>
-                    <a href="https://github.com/Luan576?tab=repositories" target="_blank"><img src="img/github.png"
-                            alt="github"></a>
+                <div class="pt-3">
+                    <a href="https://www.linkedin.com/in/luan-alves-31024233a/"><img
+                            src="img/linkedin_.png" alt="linkedin"></a>
+
+                    <a href="https://www.instagram.com/"><img src="img/instagram_.png" alt="instagram"></a>
+
+                    <a href="https://github.com/Luan576" target="_blank"><img src="img/github_.png" alt="github"></a>
                 </div>
             </div>
-            <div>
-                <img src="img/lucas.jpg" alt="" class="img-fluid">
+            <div class="col-lg-6 col-md-5 text center" id="foto">
+                <img src="img/favicon.png" alt="" class="img-fluid rounded-circle shadow-lg">
             </div>
-            </section>
 
-            <section id="contatos" class="container py-3">
-                <div class="row">
-                </div>
-                <p>
-                    Estou sempre em busca de novas oportunidades para criar, aprender e colaborar. Se quiser trocar
-                    ideias ou discutir um possivel projeto, será um prazer conversar com vocês
-                </p>
-                <ul class="list-unstyled">
-                    <li class="d-flex align-items-center">
-                        <img srf="img/e-mail.png">
-                    </li>
-                    <ul class="list-unstyled">
-                        <li class="d-flex align-items-center">
-                            <img srf="img/e-mail.png">
-                        </li>
-                    </ul> 
-                </ul>
-
-
-
-
-
-
-            </section>
 
         </div>
     </main>
+
+    <section id="projetos" class="container-fluid py-5 bg-info">
+        <div class="container">
+            <h1 class="text-center"> Meu projetos</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/touk.png" class="card-img-top" alt="Hub de links da empresa TOUK ">
+                        <div class="card-body">
+                            <h2 class="card-title">Hud de links</h2>
+                            <p class="card-text">Meu primeiro projeto com html5, css3</p>
+                            <div class="text-center">
+                                <a href="https://github.com/Luan576/Windows" class="btn btn-outline-info"
+                                    target="_blank">Ver no github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/vibefit.jpg" class="card-img-top" alt="Site da academia ficticia Vibefit">
+                        <div class="card-body">
+                            <h2 class="card-title">VibeFit</h2>
+                            <p class="card-text">Site criado para uma academia ficiticia</p>
+                            <div class="text-center">
+                                <a href="https://github.com/Luan576/dell-linuxmint" class="btn btn-outline-info"
+                                    target="_blank">HUB</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/breve.jpg" class="card-img-top" alt="projeto futuro">
+                        <div class="card-body">
+                            <h2 class="card-title">EM BREVE</h2>
+                            <p class="card-text">Projeto em desenvolvimento.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/Luan576" class=" btn btn-outline-info"
+                                    target="_blank">GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="container py-3">
+        <h1 class="text-center mb-3 pb-3">Entre em contato</h1>
+        <div class="row my-3">
+            <div class="col-md-6">
+                <p>
+                    Estou sempre em busca de novas oportunidades para criar, aprender e colaborar. Se quiser trocar
+                    ideias ou discutir um possivel projeto será um prazer conversar e construir algo juntos.
+                </p>
+                <ul class="list-unstyled mb-3">
+                    <li class="d-flex align-items-center">
+                        <img src="img/e-mail.png" alt="caixa de e-mail Luan Alves" class="me-2">
+                        <span>aluan6838@gmail.com</span>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img src="img/whatsapp_.png" alt="Whatsapp Luan Alves">
+                        <a href="https://wa.me/551199260-5838" target="_blank" class="me-2">(11)99260-5838</a>
+                    </li>
+                </ul>
+                <div class="mt-3">
+                    <h2>Siga-me</h2>
+                    <div class="d-flex gap-3">
+                        <a href="https://github.com/Luan576?tab=repositories" class="text-decoration-none" target="_blank">
+                            <img src="img/github_.png" alt="Github de Luan Alves">
+                        </a>
+                        <a href=""
+                            class="text-decoration-none" target="_blank">
+                            <img src="img/linkedin_.png" alt="Linkedin de Luan Alves">
+                        </a>
+                        <a href="" class="text-decoration-none" target="_blank">
+                            <img src="img/instagram_.png" alt="instagram de Luan Alves">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <!--Formulario-->
+                <form class="row g-3 shadow-sm bg-info border rounded pb-3 my-3 mt-2">
+                    <div class="col-md-6">
+                        <label for="inputNome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Seu nome"
+                            aria-label="Digitar seu nome">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Seu E-mail"
+                            aria-label="Digitar seu E-mail">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAssunto" class="form-label">Assunto</label>
+                        <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto"
+                            aria-label="Digitar o assunto do e-mail">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="areMsg"> Mensagem </label>
+                        <textarea class="form-control" name="msg" id="areMsg" placeholder="Digite sua mensagem"
+                            aria-label="Digite sua mensagem" rows="4"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-dark"
+                            aria-label="Enviar mensagem do formulário de contato">Enviar</button>
+                        <button type="reset" class="btn btn-dark"
+                            aria-label="Limpar o formulário de contato">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid py-3 bg-info">
+        <div class="container">
+        <div class="row  align-items-center text-center text-md-start">
+            <div class="col-md-6">
+                <p class="mb-0" >Portifólio</p>
+                <p>&copy; 2025. Luan Alves</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div class="d-flex justify-content-center justify-content-md-end align-items-center gap-3">
+                    <a href="https://github.com/Luan576?tab=repositories"><img src="img/github.png" alt="Github Luan Alves"></a>
+                    <a href="https://www.linkedin.com/in/luan-alves-31024233a/"><img src="img/linkedin.png" alt="Linkedin de Luan Alves"></a>
+                    <a href="https://www.instagram.com/"><img src="img/insta.png" alt="instagram de Luan Alves"></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -106,4 +221,4 @@
 
 </body>
 
-</html> 
+</html>
